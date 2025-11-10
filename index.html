@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umbrella Corporation.</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!--Vår css-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <section class="hero">
+      <video autoplay muted playsinline id="bgVideo" class="bg-video">
+        <source
+          src="https://videos.pexels.com/video-files/3191861/3191861-uhd_2560_1440_25fps.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="black-overlay"></div>
+      <div class="hero-text" id="heroText">
+        <h1>Welcome to Umbrella Corporation</h1>
+        <p>Science for a comfortable life</p>
+      </div>
+      <div id="scrollDown" class="scroll-down">V</div>
+    </section>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img
+            src="images/umbrellalogowhite.png"
+            alt="Umbrella Logo"
+            class="logo"
+            id="brandLogo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >What we do</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">placeholder</a>
+                </li>
+                <li>
+              </ul>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <!-- CONTENT -->
+    <div class="content-block" id="company-presentation">
+      <h2>Company Presentation</h2>
+      <p>
+        Umbrella Corporation is a multinational powerhouse, founded in 1968 by
+        Dr. Oswell E. Spencer, Edward Ashford, and James Marcus. With operations
+        spanning pharmaceuticals, medical equipment, biotechnology, and advanced
+        genetic research, Umbrella remains at the forefront of innovation.
+      </p>
+      <p>
+        Our mission is to protect and enhance life through science — a vision
+        made possible by our state-of-the-art laboratories and dedicated
+        research teams. Umbrella's symbol represents global protection,
+        sheltering humanity beneath the canopy of progress.
+      </p>
+      <h2>Umbrella — Our business is life itself.</h2>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <p>
+              <strong>Headquarters</strong><br />
+              Umbrella Corporation HQ:<br />
+              Spencer Research Building,<br />
+              1125 Raccoon Street,<br />
+              Raccoon City, USA
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="social mb-2">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-snapchat"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>© Umbrella Corporation</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <p><strong>Emergency Hotline:</strong><br />555-123-4567</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Vår JS-->
+    <script src="indexscript.js"></script>    
+  </body>
+</html>
