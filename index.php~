@@ -1,0 +1,25 @@
+<html>
+<head>
+<Title>Hello World</Title>
+</head>
+<body>
+Hello World!
+
+<?php
+
+$dbhost = "localhost";
+$dbname = "www_umbrellacorp_top";
+$dbuser = "mysqluser";
+$dbpassword = "thehive";
+
+$conn = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+echo "Connected successfully";
+?>
+
+</body>
+</html>
